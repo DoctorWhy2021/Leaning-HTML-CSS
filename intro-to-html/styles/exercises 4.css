@@ -1,0 +1,57 @@
+.image-round{
+    width: 200px;
+    border-radius: 20px;
+}
+
+.image-square{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image-circle{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.round-search{
+    border-radius: 5px;
+    border-width: 0.5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.shadow-search{
+    font-size: 60%;
+    border: none;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.3);
+    width: 900px;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 7px;
+}
+
+.image-twt{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    object-position: middle;
+    border-radius: 100%;
+    vertical-align: center;
+}
+
+.twt-box{
+    vertical-align: center;
+    border: none;
+}
+
