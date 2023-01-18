@@ -5,8 +5,16 @@
 
 .search-bar{
     font-size: 20px;
+    display: block;
 }
 
 .video-title{
     width: 300px;
+}
+
+.video-preview{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
 }

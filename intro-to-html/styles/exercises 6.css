@@ -1,0 +1,215 @@
+.red-div{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.green-div{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.box-div{
+    border: solid;
+    border-width: 1px;
+    width: 300px;
+    height: 100px;
+}
+
+.box-text
+,.box-btn{
+    margin-left: 10px;
+}
+
+.box-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.youtube-div{
+    background-color: rgb(41, 41, 41);
+    height: 100px;
+    width: 350px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+}
+
+.youtube-hdr,
+.hdr-dsc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.youtube-hdr{
+    color: white;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.hdr-dsc{
+    color: grey;
+    margin-top: 12px;
+    
+}
+
+.twt-div{
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.image-twt{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: middle;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+.twt-box{
+    border: none;
+    vertical-align:middle;
+    width: 280px;
+    font-size: 15px;
+}
+
+.tweet-button{
+    background-color: rgb(47, 148, 243);
+    border: none;
+    border-radius: 30px;
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    vertical-align: middle;
+}
+
+.tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tweet-button:active{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-div{
+    height: 250px;
+    width: 160px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+
+.card-img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    object-position: middle;
+}
+
+.prof-name,
+.numb-frd,
+.add-frd{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 7px;
+}
+
+.prof-name{
+    font-weight: bold;
+}
+
+.numb-frd{
+    margin-top: 2px;
+    color: grey;
+    font-size: 12px;
+}
+
+.add-frd{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(39, 106, 230);
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.add-frd:hover{
+    opacity: 0.8;
+}
+
+.add-frd:active{
+    opacity: 0.6;
+}
+
+.cards-div{
+    display: inline-block;
+    margin-right: 10px;
+    height: 250px;
+    width: 160px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+
+.google-logo,
+.bar-div,
+.btns-div{
+    text-align: center;
+}
+
+.img-logo{
+    display: inline-block;
+    width: 280px;
+}
+.search-bar{
+    display: inline-block;
+    margin-top: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    border: none;
+    border-radius: 20px;
+    width: 600px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.google-btn{
+    margin-top: 15px;
+    margin-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 12px;
+    border: none;
+    background-color: rgba(218, 218, 218, 0.411);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.google-btn:hover{
+    opacity: 0.8;
+}
+
+.google-btn:active{
+    opacity: 0.6;
+}
