@@ -1,0 +1,141 @@
+.name-box,
+.email-box {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.exc-text{
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+button{
+    vertical-align: middle;
+}
+
+.search-bar{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}
+
+.google-text{
+    margin-bottom: 15px;
+    margin-left: 70px;
+    font-family: Arial;
+    font-size: 60px;
+}
+
+.letter-g{
+    color: rgb(62, 139, 211);
+}
+
+.letter-o{
+    color: rgb(223, 76, 76);
+}
+
+.letter-o2{
+    color: orange;
+}
+
+.letter-g2{
+    color: rgb(62, 139, 211);
+}
+
+.letter-l{
+    color: green;
+}
+
+.letter-e{
+    color: rgb(223, 76, 76);
+}
+
+.email,
+.first-name,
+.last-name{
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.4);
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.first-name,
+.last-name{
+    width: 100px;
+}
+
+.email{
+    width: 215px;
+    margin-top: 7px;
+    display: block;
+}
+
+.sign-up{
+    display: block;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 225px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(44, 132, 214);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+.uber-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.uber-input{
+    display: block;
+    width: 250px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(221, 221, 221, 0.5);
+    font-size: 75%;
+}
+
+.uber-request{
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 14px;
+    padding-left: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    cursor: pointer;
+}
+
+.uber-later{
+    border: none;
+    background-color: rgba(221, 221, 221, 0.5);
+    margin-top: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 14px;
+    padding-left: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-weight: bold;
+    cursor: pointer;
+}
