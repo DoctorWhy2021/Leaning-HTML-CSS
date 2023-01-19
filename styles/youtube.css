@@ -4,9 +4,15 @@ p{
     margin-bottom: 0;
 }
 
+.video-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 30px;
+}
+
 .thumbnail{
-    width: 300px;
-    display: block;
+    width: 100%;
 }
 
 .search-bar{
@@ -21,21 +27,9 @@ p{
     line-height: 20px;
 }
 
-.video-preview{
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 15px;
-}
-
-.chnl-pic-div,
-.video-info-div{
-    display: inline-block;
-}
-
-.chnl-pic-div{
-    width: 50px;
-    vertical-align: top;
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
 .chnl-pic{
@@ -43,9 +37,6 @@ p{
     border-radius: 100%;
 }
 
-.video-info-div{
-    width: 200px;
-}
 
 .thmbnail-row{
     margin-bottom: 12px;
